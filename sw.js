@@ -1,7 +1,7 @@
-/* ALSKwela Elementary LS6 v3.2 — network-first online updates, offline-first fallback */
-const CACHE='alskwela-ae2027-elem-ls6digital-v3-2-20261117';
+/* ALSKwela Elementary_LS6_Digital v3.3 — network-first online updates; offline fallback. */
+const CACHE='alskwela-ae2027-elem-ls6digital-studyreport-v3-3-20261117';
 const PREFIX='alskwela-ae2027-elem-ls6digital-';
-const VERSION='3.2';
+const VERSION='3.3';
 const ROOT=new URL(self.registration.scope);
 const ASSETS=['./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./verify-update-v3.html','./report-v3-check.json'];
 async function cacheOne(cache,path){
